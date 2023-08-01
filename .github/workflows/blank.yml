@@ -19,5 +19,6 @@ jobs:
 
     - name: Build and run MCBOT.jar
       run: |
+        git clone https://github.com/nejason57mars/mcbot.git
         cd mcbot
         java -jar MCBOT.jar 65.108.21.254:25587 340 botjoiner 120 -1
