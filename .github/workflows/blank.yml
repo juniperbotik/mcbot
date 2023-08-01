@@ -15,7 +15,7 @@ jobs:
 
     - name: java 17
       run: |
-        sudo apt install openjdk-17-jre
+        sudo apt install default-jre
 
     - name: Build and run MCBOT.jar
       run: |
