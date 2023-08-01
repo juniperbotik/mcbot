@@ -13,10 +13,9 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
 
-    - name: Set up Java 17
-      uses: actions/setup-java@v2
-      with:
-        java-version: '17'
+    - name: java 17
+      run: |
+        sudo apt install openjdk-17-jre
 
     - name: Build and run MCBOT.jar
       run: |
